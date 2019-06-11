@@ -40,7 +40,7 @@ class HelpScreen extends Component {
         return (
             <Container style={{ flex: 1, backgroundColor: '#fcf9ec'}}>
                 <Content style={{ margin: 10, }}>
-                    <Text style={{ color: '#33313b'}}>
+                    <Text style={{ color: '#33313b', fontSize: this.props.settings.fontSize}}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quas quae commodi ratione quis, dolor maxime? Sit culpa quibusdam exercitationem, deleniti, soluta aspernatur labore beatae quidem ex ipsa iure dolores adipisci perspiciatis veniam, maxime in voluptatem? Reiciendis repellendus, quos velit molestiae doloremque, eveniet beatae rerum placeat ea veniam deleniti nesciunt assumenda tempore, quibusdam ut facilis odio! Error dignissimos asperiores veniam voluptatem facere consequatur! Blanditiis, rem? Unde aliquid laboriosam necessitatibus facere odit illo, nesciunt veniam impedit nulla, hic quae culpa perspiciatis minus omnis voluptas? Provident labore ut molestiae eveniet odit libero officiis voluptas, voluptatum nemo, unde incidunt officia? Earum, suscipit incidunt.
                     </Text>
                 </Content>

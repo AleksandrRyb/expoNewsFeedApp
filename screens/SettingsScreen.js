@@ -44,11 +44,6 @@ class SettingsScreen extends Component {
         }
     }
 
-    // componentWillReceiveProps(nextProps){
-    //     if(nextProps.settings.theme !== this.props.settings.theme){
-    //         this.props.navigation.setParams({barColor: this.props.settings.theme})
-    //     }
-    // }
 
     componentDidUpdate(prevProps) {
         if(prevProps.settings.theme !== this.props.settings.theme) {
